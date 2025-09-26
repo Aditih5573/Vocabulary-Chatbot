@@ -1,7 +1,7 @@
 [project]
 name = "project1"
 version = "0.1.0"
-description = "Add your description here"
+description = "Vocabulary chatbot using LangChain, OpenAI, and Dictionary API"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -9,4 +9,5 @@ dependencies = [
     "langchain-openai>=0.3.16",
     "langgraph>=0.4.1",
     "python-dotenv>=1.1.0",
+    "requests>=2.32.0",
 ]
